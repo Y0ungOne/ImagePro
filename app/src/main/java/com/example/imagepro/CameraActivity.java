@@ -163,7 +163,7 @@ public class CameraActivity extends Activity implements CameraBridgeViewBase.CvC
                         take_picture_button.setColorFilter(Color.WHITE);
                         textview.setVisibility(View.GONE);
                         current_image.setVisibility(View.GONE);
-                        //textview.setText("");
+                        textview.setText("");
                         Camera_or_recognizeText="camera";
 
                     }
